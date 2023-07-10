@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'CursedTimer';
+    src: url('CursedTimer.ttf');
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/2277981/pexels-photo-2277981.jpeg?cs=srgb&dl=pexels-king-siberia-2277981.jpg&fm=jpg") ;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    color: #eeeeee;
+    text-shadow: 0 0 8px black;
+    font-size: 40px;
+    margin: 50px 0 0;
+}
+
+button {
+    background: #e5e5e5;
+    border: 2px solid #264653;
+    border-radius: 5px;
+    color: #264653;
+    font-family: CursedTimer;
+    margin: 3px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    background: #0a0001;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-family: CursedTimer;
+    font-size: 90px;
+    margin: 20px;
+    min-width: 120px;
+    padding: 15px 20px 0 20px;
+}
